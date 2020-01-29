@@ -4,8 +4,13 @@ git pull origin master --allow-unrelated-histories
 
 git log --oneline --graph
 
+
 //Guardar en memoria
 git stash
 git stash pop
 git stash list
 git stash brach Nombre rama
+
+
+Para saber qué archivos vamos a borrar tecleamos git clean --dry-run
+Para borrar todos los archivos listados (que no son carpetas) tecleamos git clean -f
