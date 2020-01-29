@@ -5,4 +5,8 @@ git pull origin master --allow-unrelated-histories
  git log --oneline --graph
 
 
+<<<<<<< HEAD
 master 2
+=======
+Linea de experimento
+>>>>>>> Se relizar la primera line para el rebase
