@@ -2,11 +2,8 @@ git pull origin master --allow-unrelated-histories
 	funcionar historial dle repositiorio remoto en con el local
 
 
- git log --oneline --graph
+git log --oneline --graph
 
-
-master 2
-Linea de experimento
-Linea de experimento
-
-Line de experimento dos
+//Guardar en memoria
+git stash
+git stash pop
